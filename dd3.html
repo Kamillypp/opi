@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitrine de Produtos</title>
+    <style>
+        /* Estilos para a vitrine de produtos */
+        .products-container {
+            display: flex; /* Permite que os produtos sejam exibidos em uma linha flexível */
+            flex-wrap: wrap; /* Permite que os produtos quebrem para uma nova linha quando não houver espaço suficiente */
+            justify-content: center; /* Centraliza os produtos horizontalmente */
+        }
+        .product {
+            width: 20%; /* Define a largura de cada produto para 20% da largura total */
+            box-sizing: border-box; /* Inclui a borda e o padding na largura total */
+            padding: 10px;
+            text-align: center;
+            margin: 10px; /* Adiciona um espaço entre os produtos */
+        }
+        .product a {
+            text-decoration: none;
+            color: #333;
+        }
+        .product img {
+            width: 90%;
+            max-width: 100px; /* Aumentei o tamanho máximo para uma capa de livro */
+            height: auto;
+            display: block; /* Isso garante que a imagem não tenha margens adicionais */
+            margin: 0 auto; /* Centraliza a imagem horizontalmente */
+        }
+        .buy-button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .buy-button:hover {
+            background-color: #45a049;
+        }
+
+        /* Estilos para a barra de pesquisa */
+        .search-container {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+        }
+        .search-container input[type=text] {
+            padding: 10px;
+            margin-right: 5px;
+            border: none;
+            font-size: 16px;
+        }
+        .search-container button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .search-container button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Barra de pesquisa -->
+<div class="search-container">
+    <form>
+        <input type="text" placeholder="Pesquisar por código..." name="search">
+        <button type="submit">Pesquisar</button>
+    </form>
+</div>
+
+<!-- Container dos produtos -->
+<div class="products-container">
+    <!-- Produtos -->
+    <div class="product">
+        <a href="https://api.whatsapp.com/send?phone=+5562993858584&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20este%20produto">
+            <img src="ofabr.jpg" alt="Produto 1">
+            <h3>Cod: 87951</h3>
+            <p>R$ 10,00</p>
+            <button class="buy-button">Comprar</button>
+        </a> 
+    </div>
+     <div class="product">
+        <a href="https://api.whatsapp.com/send?phone=+5562993858584&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20este%20produto">
+            <img src="ofabr.jpg" alt="Produto 1">
+            <h3>Cod: 87951</h3>
+            <p>R$ 10,00</p>
+            <button class="buy-button">Comprar</button>
+        </a> 
+    </div>
+     <div class="product">
+        <a href="https://api.whatsapp.com/send?phone=+5562993858584&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20este%20produto">
+            <img src="ofabr.jpg" alt="Produto 1">
+            <h3>Cod: 87951</h3>
+            <p>R$ 10,00</p>
+            <button class="buy-button">Comprar</button>
+        </a> 
+    </div>
+     <div class="product">
+        <a href="https://api.whatsapp.com/send?phone=+5562993858584&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20este%20produto">
+            <img src="ofabr.jpg" alt="Produto 1">
+            <h3>Cod: 87951</h3>
+            <p>R$ 10,00</p>
+            <button class="buy-button">Comprar</button>
+        </a> 
+    </div>
+     <div class="product">
+        <a href="https://api.whatsapp.com/send?phone=+5562993858584&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20este%20produto">
+            <img src="ofabr.jpg" alt="Produto 1">
+            <h3>Cod: 87951</h3>
+            <p>R$ 10,00</p>
+            <button class="buy-button">Comprar</button>
+        </a> 
+    </div>
+     <div class="product">
+        <a href="https://api.whatsapp.com/send?phone=+5562993858584&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20este%20produto">
+            <img src="ofabr.jpg" alt="Produto 1">
+            <h3>Cod: 87951</h3>
+            <p>R$ 10,00</p>
+            <button class="buy-button">Comprar</button>
+        </a> 
+    </div>
+     <div class="product">
+        <a href="https://api.whatsapp.com/send?phone=+5562993858584&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20este%20produto">
+            <img src="ofabr.jpg" alt="Produto 1">
+            <h3>Cod: 87951</h3>
+            <p>R$ 10,00</p>
+            <button class="buy-button">Comprar</button>
+        </a> 
+    </div>
+     <div class="product">
+        <a href="https://api.whatsapp.com/send?phone=+5562993858584&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20este%20produto">
+            <img src="ofabr.jpg" alt="Produto 1">
+            <h3>Cod: 87951</h3>
+            <p>R$ 10,00</p>
+            <button class="buy-button">Comprar</button>
+        </a> 
+    </div>
+     <div class="product">
+        <a href="https://api.whatsapp.com/send?phone=+5562993858584&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20este%20produto">
+            <img src="ofabr.jpg" alt="Produto 1">
+            <h3>Cod: 87951</h3>
+            <p>R$ 10,00</p>
+            <button class="buy-button">Comprar</button>
+        </a> 
+    </div>
+     <div class="product">
+        <a href="https://api.whatsapp.com/send?phone=+5562993858584&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20este%20produto">
+            <img src="ofabr.jpg" alt="Produto 1">
+            <h3>Cod: 87951</h3>
+            <p>R$ 10,00</p>
+            <button class="buy-button">Comprar</button>
+        </a> 
+    </div>
+     <div class="product">
+        <a href="https://api.whatsapp.com/send?phone=+5562993858584&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20este%20produto">
+            <img src="ofabr.jpg" alt="Produto 1">
+            <h3>Cod: 87951</h3>
+            <p>R$ 10,00</p>
+            <button class="buy-button">Comprar</button>
+        </a> 
+    </div>
+     <div class="product">
+        <a href="https://api.whatsapp.com/send?phone=+5562993858584&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20este%20produto">
+            <img src="ofabr.jpg" alt="Produto 1">
+            <h3>Cod: 87951</h3>
+            <p>R$ 10,00</p>
+            <button class="buy-button">Comprar</button>
+        </a> 
+    </div>
+     <div class="product">
+        <a href="https://api.whatsapp.com/send?phone=+5562993858584&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20este%20produto">
+            <img src="ofabr.jpg" alt="Produto 1">
+            <h3>Cod: 87951</h3>
+            <p>R$ 10,00</p>
+            <button class="buy-button">Comprar</button>
+        </a> 
+    </div>
+     <div class="product">
+        <a href="https://api.whatsapp.com/send?phone=+5562993858584&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20este%20produto">
+            <img src="ofabr.jpg" alt="Produto 1">
+            <h3>Cod: 87951</h3>
+            <p>R$ 10,00</p>
+            <button class="buy-button">Comprar</button>
+        </a> 
+    </div>
+     <div class="product">
+        <a href="https://api.whatsapp.com/send?phone=+5562993858584&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20este%20produto">
+            <img src="ofabr.jpg" alt="Produto 1">
+            <h3>Cod: 85453</h3>
+            <p>R$ 10,00</p>
+            <button class="buy-button">Comprar</button>
+        </a> 
+    </div>
+     <div class="product">
+        <a href="https://api.whatsapp.com/send?phone=+5562993858584&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20este%20produto">
+            <img src="ofabr.jpg" alt="Produto 1">
+            <h3>Cod: 87951</h3>
+            <p>R$ 10,00</p>
+            <button class="buy-button">Comprar</button>
+        </a> 
+    </div>
+    <!-- Outros produtos aqui... -->
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.querySelector('.search-container form');
+        const input = document.querySelector('.search-container input[type="text"]');
+        const products = document.querySelectorAll('.product');
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            const searchTerm = input.value.toLowerCase();
+            products.forEach(function(product) {
+                const code = product.querySelector('h3').textContent.toLowerCase();
+                if (code.includes(searchTerm)) {
+                    product.style.display = 'block';
+                } else {
+                    product.style.display = 'none';
+                }
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
